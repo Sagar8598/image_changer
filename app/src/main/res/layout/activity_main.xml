@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="@drawable/bi2">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="268dp"
+        android:layout_height="485dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="72dp"
+        android:src="@drawable/im1"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/ref"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="620dp"
+        android:src="@drawable/ref"
+        app:tint="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Change the pic"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
